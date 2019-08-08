@@ -76,13 +76,12 @@ a:hover {
 }
 
 .top-container {
-  background-color: #eaffd0;
+  background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
 }
 
 .musictop-container {
-  background-color: #eaffd0;
   position: relative;
 }
 
@@ -111,16 +110,22 @@ a:hover {
   padding: 20px 0;
 }
 
-.top-cloud {
+.top-note {
   position: absolute;
+  width: 8%;
   right: 300px;
   top: 40px;
 }
 
-.bottom-cloud {
+.bottom-note {
   position: absolute;
+  width: 8%;
   left: 250px;
-  bottom: 300px;
+  top: 400px;
+}
+
+.gamecontroller {
+  width: 50%;
 }
 
 .btn {
@@ -159,12 +164,6 @@ a:hover {
   display: inline-block;
 }
 
-.tormenttxt {
-  width: 37%;
-  margin: 100px auto 50px auto;
-  text-align: left;
-}
-
 .joyplayart {
   width: 45%;
   display: inline-block;
@@ -172,12 +171,6 @@ a:hover {
 
 .jpplayer {
   display: inline-block;
-}
-
-.joyfulplaytxt {
-  width: 38%;
-  margin: 100px auto 50px auto;
-  text-align: right;
 }
 
 .hellshipart {
@@ -189,13 +182,18 @@ a:hover {
   display: inline-block;
 }
 
-/* .hellshiptxt {
-  width: 30%;
-  margin: 100px auto 50px auto;
-  text-align: left;
+.musictxt {
+  width: 58%;
+  margin: auto auto 30px auto;
+  text-align: center;
 }
 
-.hellship-screenshot {
+.devpage {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+/* .hellship-screenshot {
   width: 65%;
   float: right;
   margin-left: 30px;
